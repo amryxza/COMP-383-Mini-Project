@@ -12,14 +12,18 @@ The following tools are required in order for this code to function.
 ### SRA Toolkit
 The documentation can be found here: https://github.com/ncbi/sra-tools
 SRA Toolkit is used for its fastq-dump functionality. In order to install SRA Toolkit, the following code can be run in Ubuntu.
+
 >wget --output-document sratoolkit.tar.gz http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+
 >tar -vxzf sratoolkit.tar.gz
+
 >export PATH=$PATH:$PWD/sratoolkit.2.11.2-ubuntu64/bin
 
 ### SPAdes
 The documentation can be found here: https://github.com/ablab/spades
 SPAdes is used in order to assemble the reads retrieved using SRA Toolkit. In order to install SPAdes, the following code can be run in Ubuntu.
 >wget http://cab.spbu.ru/files/release3.15.4/SPAdes-3.15.4-Linux.tar.gz
+
 >tar -xzf SPAdes-3.15.4-Linux.tar.gz
 
 ### GeneMarkS-2
@@ -31,6 +35,7 @@ Both the gz files (the code and the key) must be downloaded. Move the code into 
 The key must be unzipped and copied to your home directory using:
 
 >gunzip gm_key_64.gz
+
 >cp gm_key_64 ~/.gmhmmp2_key
 
 ## mini project.py
