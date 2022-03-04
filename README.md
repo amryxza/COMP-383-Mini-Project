@@ -3,7 +3,7 @@
 ## Introduction
 The purpose of this Python wrapper can be summarized in distinct steps:
   1. To retrieve and assemble fastq files containing single unpaired reads
-  2. To predict a protein sequence based on contigs > 100 bp
+  2. To predict a protein sequence based on contigs > 1000 bp
   3. To BLAST the predicted protein sequences against an existing database
 
 ## Required Tools
