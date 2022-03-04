@@ -24,12 +24,12 @@ SPAdes is used in order to assemble the reads retrieved using SRA Toolkit. In or
 
 ### GeneMarkS-2
 This software can be downloaded here: http://exon.gatech.edu/GeneMark/license_download.cgi
+GeneMarkS-2 is used to predict protein sequences from the the genes identified by SPAdes. 
 Both the gz files (the code and the key) must be downloaded. Move the code into your home directory. Unpack it using:
 >tar -xf gms2_linux_64.tar.gz
 The key must be unzipped and copied to your home directory using:
 >gunzip gm_key_64.gz
 >cp gm_key_64 ~/.gmhmmp2_key
-GeneMarkS-2 is used to predict protein sequences from the the genes identified by SPAdes. 
 
 ## mini project.py
 This was coded using Python 3 and contains the wrapper. Be sure to change the repository to the user repository before running through data. Results from the code (including the number of contigs longer than 1000 bps, the total number of bps in those contigs, and the difference between the CSD produced by GeneMarks and the CSD in the RefSeq) will be summarized in /files/miniproject.log
