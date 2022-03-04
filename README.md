@@ -7,7 +7,7 @@ The purpose of this Python wrapper can be summarized in distinct steps:
   3. To BLAST the predicted protein sequences against an existing database
 
 ## Required Tools
-The following tools are required in order for this code to function
+The following tools are required in order for this code to function.
 
 ### SRA Toolkit
 The documentation can be found here: https://github.com/ncbi/sra-tools
