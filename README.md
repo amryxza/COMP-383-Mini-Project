@@ -40,7 +40,9 @@ The key must be unzipped and copied to your home directory using:
 
 ## mini project.py
 This was coded using Python 3 and contains the wrapper. Be sure to change the repository to the user repository before running through data. Results from the code (including the number of contigs longer than 1000 bps, the total number of bps in those contigs, and the difference between the CSD produced by GeneMarks and the CSD in the RefSeq) will be summarized in /files/miniproject.log
+
 The test data is available as Ecoli.fasta
+
 Additional files in /files will include:
 1. the fastq file from SRAtoolkit
 2. files from SPAdes (including contigs.fasta)
